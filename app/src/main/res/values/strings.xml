@@ -1,4 +1,38 @@
 <resources>
     <string name="app_name">AboutMe</string>
     <string name="name">Conrad</string>
+    <string name="yellow_star">yellow_star_string_resource</string>
+    <string name="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit tortor quis mauris
+        posuere, sed semper velit rhoncus. Donec volutpat odio nec egestas ultrices. Cras sollicitudin vulputate ex sit
+        amet efficitur. Vestibulum eleifend massa quam, id vulputate justo dapibus ut. Etiam id consequat augue. Etiam
+        semper ex at sapien tincidunt, in tristique velit molestie. Mauris interdum eget neque rutrum pretium. Cras in
+        facilisis nisi.
+
+        \n\n Nunc a vehicula enim. Sed quis felis quis velit efficitur egestas at eu nibh. Fusce sit amet dolor quis
+        ipsum volutpat lobortis. Etiam in mi mauris. Ut sit amet eros placerat, sodales quam at, ultrices ex. Phasellus
+        at lobortis nibh. Suspendisse feugiat enim nec libero aliquet, ut euismod est venenatis. Pellentesque pulvinar
+        ut quam non malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+        himenaeos. Etiam dignissim arcu at nisl auctor finibus. Nam dapibus ex porta, auctor dui vitae, venenatis justo.
+        Proin in metus semper, faucibus ante sit amet, fringilla lorem. Fusce hendrerit porttitor euismod. Etiam eget
+        diam id neque varius euismod at eget libero. Morbi vehicula orci lorem, convallis vulputate sem ultricies vel.
+
+        \n\n Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ac
+        magna vel quam fermentum auctor sed quis lorem. Suspendisse dapibus molestie sem vitae ultrices. Mauris dui
+        urna, congue nec laoreet a, dictum quis ligula. In condimentum laoreet tellus, et posuere lorem viverra ut.
+        Phasellus mollis lacus in lorem vestibulum aliquet. In tempor, justo id tincidunt lobortis, nulla purus ornare
+        augue, ut elementum dolor ligula vitae sapien. Pellentesque convallis maximus odio cursus vehicula. Donec ac
+        aliquet dolor. Curabitur ac venenatis ante, in iaculis lorem. Maecenas sed mattis nisi, vitae porta velit.
+
+        \n\n Aliquam et gravida turpis, ac gravida diam. Vestibulum ante ipsum primis in faucibus orci luctus et
+        ultrices posuere cubilia Curae; Nunc ut volutpat dolor. Vivamus quis dolor nec nibh volutpat vulputate vitae sit
+        amet augue. Quisque non tristique ligula. Aenean hendrerit venenatis egestas. Mauris malesuada ipsum ex, eu
+        posuere magna placerat nec. Nulla consectetur, leo a cursus commodo, risus dui semper magna, ac blandit ante dui
+        ac neque.
+
+        \n\n Sed eget dolor eu leo convallis aliquet et in erat. In faucibus cursus mattis. Nulla eget erat id arcu
+        hendrerit rutrum. Pellentesque non odio arcu. Donec sit amet consequat felis, maximus porta arcu. Etiam suscipit
+        vehicula tortor, porta facilisis turpis eleifend in. Pellentesque imperdiet fermentum pulvinar.
+    </string>
+    <string name="what_is_your_nickname">What is your nickname?</string>
+    <string name="done">Done</string>
 </resources>
