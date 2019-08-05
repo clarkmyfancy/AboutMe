@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 //        nicknameTextView.visibility = View.VISIBLE
 
         // now we access the views through the binding object
-//        binding.nicknameText.text = binding.nicknameEdit.text
+//        binding.nicknameText.text = bind  ing.nicknameEdit.text
 //        binding.nicknameEdit.visibility = View.GONE
 //        binding.doneButton.visibility = View.GONE
 //        binding.nicknameText.visibility = View.VISIBLE
