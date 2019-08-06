@@ -15,6 +15,9 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
+    private val myName: MyName = MyName("jack conrad clark")
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 //        setContentView(R.layout.activity_main)
@@ -22,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         // instead os using setContentView, we instruct onCreate to create the binding object with all the shit that
         // connects the layout to the activity
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-
+        binding.myName = myName
 
 //        // set the click listener
 ////        findViewById<Button>(R.id.done_button).setOnClickListener {
@@ -51,6 +54,7 @@ class MainActivity : AppCompatActivity() {
 
         // use apply to make code easier to read
         binding.apply {
+            myName?.nickname = nicknameEdit.text.toString()
             nicknameText.text = binding.nicknameEdit.text.toString()
             // inorder to refresh the ui with the new data
                 // we need to invalidate all binding exporessions so that they get created with the new data
