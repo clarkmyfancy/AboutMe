@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="myName"
+            type="com.example.aboutme.MyName"/>
+    </data>
+
     <LinearLayout xmlns:tools="http://schemas.android.com/tools"
                   android:orientation="vertical"
                   android:layout_width="match_parent"
@@ -11,7 +18,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/name_textView"
-                android:text="@string/name"
+                android:text="@={myName.name}"
                 android:textAlignment="center"
                 style="@style/NameStyle"/>
         <EditText
@@ -34,8 +41,12 @@
                 android:id="@+id/done_button"/>
         <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/nickname_text" style="@style/NameStyle"
-                android:textAlignment="center" android:visibility="gone"/>
+                android:layout_height="wrap_content"
+                android:id="@+id/nickname_text"
+                style="@style/NameStyle"
+                android:textAlignment="center"
+                android:text="@={myName.nickname}"
+                android:visibility="gone"/>
         <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -45,14 +56,16 @@
                 android:layout_marginTop="@dimen/layout_margin"/>
         <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" android:id="@+id/bio_scroll" style="@style/NameStyle">
+                android:layout_height="match_parent"
+                android:id="@+id/bio_scroll"
+                style="@style/NameStyle">
             <TextView
-                android:text="@string/bio"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/bio_text"
-                android:lineSpacingMultiplier="1.2"
-        />
+                    android:text="@string/bio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bio_text"
+                    android:lineSpacingMultiplier="1.2"
+            />
 
         </ScrollView>
     </LinearLayout>
